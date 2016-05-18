@@ -30,7 +30,9 @@
                                @"RuntimeFour",
                                @"RuntimeFive",
                                @"RuntimeSix",
-                               @"RuntimeSeven"
+                               @"RuntimeSeven",
+                               @"RuntimeEight",
+                               @"RuntimeNine"
                             ],
              };
     
@@ -44,6 +46,8 @@
                                 @"动态修改变量值",
                                 @"动态交换方法",
                                 @"动态为Category扩展加属性",
+                                @"动态方法解析",
+                                @"消息转发"
                            ],
                    };
 

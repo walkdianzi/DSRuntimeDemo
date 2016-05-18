@@ -26,7 +26,7 @@ void replaceMethod(id self, SEL _cmd) {
     
     Class strcls = [self class];
     SEL  orginSelector = @selector(orginMethod);
-    class_replaceMethod(strcls, @selector(orginMethod), (IMP)replaceMethod, "v@:");
+    class_replaceMethod(strcls, orginSelector, (IMP)replaceMethod, "v@:");
 }
 
 - (void)orginMethod{

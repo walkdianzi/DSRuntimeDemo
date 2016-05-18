@@ -27,6 +27,9 @@
 		13933EF91CD23DCA00888F24 /* ChinaPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 13933EF81CD23DCA00888F24 /* ChinaPerson.m */; };
 		13933EFC1CD2F56C00888F24 /* ChinaPerson+HangzhouPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 13933EFB1CD2F56C00888F24 /* ChinaPerson+HangzhouPerson.m */; };
 		13933EFF1CD2F73700888F24 /* RuntimeSevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13933EFE1CD2F73700888F24 /* RuntimeSevenViewController.m */; };
+		13E07B0C1CEB4444002ACB68 /* RuntimeEightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E07B0B1CEB4444002ACB68 /* RuntimeEightViewController.m */; };
+		13E07B0F1CEB4D3A002ACB68 /* RuntimeNineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E07B0E1CEB4D3A002ACB68 /* RuntimeNineViewController.m */; };
+		13E07B121CEB4DAD002ACB68 /* PJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E07B111CEB4DAD002ACB68 /* PJPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,12 @@
 		13933EFB1CD2F56C00888F24 /* ChinaPerson+HangzhouPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ChinaPerson+HangzhouPerson.m"; sourceTree = "<group>"; };
 		13933EFD1CD2F73700888F24 /* RuntimeSevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeSevenViewController.h; sourceTree = "<group>"; };
 		13933EFE1CD2F73700888F24 /* RuntimeSevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeSevenViewController.m; sourceTree = "<group>"; };
+		13E07B0A1CEB4444002ACB68 /* RuntimeEightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeEightViewController.h; sourceTree = "<group>"; };
+		13E07B0B1CEB4444002ACB68 /* RuntimeEightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeEightViewController.m; sourceTree = "<group>"; };
+		13E07B0D1CEB4D3A002ACB68 /* RuntimeNineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeNineViewController.h; sourceTree = "<group>"; };
+		13E07B0E1CEB4D3A002ACB68 /* RuntimeNineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeNineViewController.m; sourceTree = "<group>"; };
+		13E07B101CEB4DAD002ACB68 /* PJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJPerson.h; sourceTree = "<group>"; };
+		13E07B111CEB4DAD002ACB68 /* PJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,12 +207,18 @@
 				13933EF21CD23D5500888F24 /* RuntimeSixViewController.m */,
 				13933EFD1CD2F73700888F24 /* RuntimeSevenViewController.h */,
 				13933EFE1CD2F73700888F24 /* RuntimeSevenViewController.m */,
+				13E07B0A1CEB4444002ACB68 /* RuntimeEightViewController.h */,
+				13E07B0B1CEB4444002ACB68 /* RuntimeEightViewController.m */,
+				13E07B0D1CEB4D3A002ACB68 /* RuntimeNineViewController.h */,
+				13E07B0E1CEB4D3A002ACB68 /* RuntimeNineViewController.m */,
 				13933EE81CD1DED700888F24 /* MyClass.h */,
 				13933EE91CD1DED700888F24 /* MyClass.m */,
 				13933EF71CD23DCA00888F24 /* ChinaPerson.h */,
 				13933EF81CD23DCA00888F24 /* ChinaPerson.m */,
 				13933EFA1CD2F56C00888F24 /* ChinaPerson+HangzhouPerson.h */,
 				13933EFB1CD2F56C00888F24 /* ChinaPerson+HangzhouPerson.m */,
+				13E07B101CEB4DAD002ACB68 /* PJPerson.h */,
+				13E07B111CEB4DAD002ACB68 /* PJPerson.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -340,6 +355,7 @@
 			files = (
 				13933EEA1CD1DED700888F24 /* MyClass.m in Sources */,
 				13933EAD1CD19F7500888F24 /* ViewController.m in Sources */,
+				13E07B0F1CEB4D3A002ACB68 /* RuntimeNineViewController.m in Sources */,
 				13933EDD1CD19FE200888F24 /* BaseViewController.m in Sources */,
 				13933EF91CD23DCA00888F24 /* ChinaPerson.m in Sources */,
 				13933EED1CD1E01100888F24 /* RuntimeFourViewController.m in Sources */,
@@ -349,7 +365,9 @@
 				13933EE71CD1BBF600888F24 /* RuntimeThreeViewController.m in Sources */,
 				13933EAA1CD19F7500888F24 /* AppDelegate.m in Sources */,
 				13933EA71CD19F7500888F24 /* main.m in Sources */,
+				13E07B0C1CEB4444002ACB68 /* RuntimeEightViewController.m in Sources */,
 				13933EF01CD213E800888F24 /* RuntimeFiveViewController.m in Sources */,
+				13E07B121CEB4DAD002ACB68 /* PJPerson.m in Sources */,
 				13933EE11CD1A08B00888F24 /* RuntimeOneViewController.m in Sources */,
 				13933EDE1CD19FE200888F24 /* RootViewController.m in Sources */,
 				13933EE41CD1B54A00888F24 /* RuntimeTwoViewController.m in Sources */,
@@ -580,6 +598,7 @@
 				13933ED11CD19F7500888F24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13933ED21CD19F7500888F24 /* Build configuration list for PBXNativeTarget "RuntimeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +607,7 @@
 				13933ED41CD19F7500888F24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13933ED51CD19F7500888F24 /* Build configuration list for PBXNativeTarget "RuntimeDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +616,7 @@
 				13933ED71CD19F7500888F24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

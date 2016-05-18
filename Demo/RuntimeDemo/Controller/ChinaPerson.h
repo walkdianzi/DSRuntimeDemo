@@ -10,6 +10,11 @@
 
 @interface ChinaPerson : NSObject
 
+//------------Eight---------------
++ (void)learnClass:(NSString *) string;
+
+
+//------------Five,Six---------------
 - (NSString *)sayMyName;
 
 @end
